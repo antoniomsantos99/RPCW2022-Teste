@@ -4,7 +4,7 @@ Ambos os exercicios poderão ser corridos executando "npm start" na pasta app do
 
 Exercicio 1:
 	-Na resolução do primeiro para a importação do dataset no mongoDB o ficheiro json foi dividido em 2 subficheiros (um contendo as cidades e outro contendo as ligações)
-	-Para importar os ficheiros foi utilizado o MongoDB compass
+	-Para importar os ficheiros foi utilizado o MongoDB compass nas coleções cidades e ligacoes
 	-O servidor escuta na porta 3000
 
 Exercicio 2:
