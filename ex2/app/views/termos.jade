@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= "Ex2 - António Santos (PG47031)"
+  center
+    table
+      tr 
+        th termo
+        th id Classe
+        th Titulo
+      each t in termos
+        tr
+            td= t.termo
+            td 
+              a(href="/classe/"+t.codigoClasse.substring(1))= t.codigoClasse
+            td 
+              a(href="/classe/"+t.codigoClasse.substring(1))= t.tituloClasse
